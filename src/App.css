@@ -1,0 +1,26 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(168, 173, 182);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app__container {
+  height: 80%;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(232, 234, 237);
+  padding: 32px 0;
+  border-radius: 12px;
+}
+.app__todoContainer {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
